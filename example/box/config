@@ -1,0 +1,11 @@
+
+# camera options
+camera w 640                # default
+camera h 480                # default
+camera fov 1.0 471975512     # pi/3; default pi/2
+camera from 0.0 0.7 1.75    # default 0 0 0
+camera to 0.0 0.7 0.0       # default 0 0 -1
+
+# render options
+render depth 4              # default 1
+render mode full            # default
