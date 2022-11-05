@@ -1,6 +1,6 @@
 # raytracer
 
-This application allows to render simple 3d scenes with polygons and spheres.
+This application allows to render simple 3D scenes with polygons and spheres.
 
 Usage:   ``raytracer [path/to/obj/file] [path/to/png/file] (optional)[path/to/config]``<br>
 ``obj file``: standart ``.obj`` file (supported options are: ``v``, ``vn``, ``f``, ``P``, ``S``, ``usemtl``, ``mtllib``)<br><br>
@@ -8,7 +8,7 @@ Usage:   ``raytracer [path/to/obj/file] [path/to/png/file] (optional)[path/to/co
 ``png file``: path to the future ``.png`` image of the scene<br><br>
 ``config``: file containing render options & camera options<br>
 
-This repo contains ``example`` directory. You can build this image by running this sequence of commands in the root of this repo:<br>
+This repo contains ``example`` directory. You can build image of spheres in a box by running following sequence of commands in the root of this repo:<br>
 ```
 mkdir build
 cd build
